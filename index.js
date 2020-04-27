@@ -16,8 +16,9 @@ function greet(time) {
   if (hour > 17) return "Good Evening"
   return "Good Afternoon"
 }
+}
 /* Write your implementation of displayMessage() */
 function displayMessage (text) {
   document.getElementById('greeting').innerText = text
   document.getElementById('greeting').innerHTML = text
-};
+}
